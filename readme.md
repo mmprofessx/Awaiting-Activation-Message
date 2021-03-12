@@ -1,3 +1,7 @@
+## Information:
+This plugin will add a message to the header of your forums if a member is awaiting activation, and you have account activation set to either email or admin activation. The message will display in your theme's style.
+
+## Detail Informations 
 Name: Awaiting Activation Message
 Description: Shows a message to people awaiting activation by email or admin.
 Website: https://github.com/MattRogowski/Awaiting-Activation-Message
@@ -9,17 +13,12 @@ Files: 2
 Templates added: 1
 Template changes: 1
 
-To Install:
+## To Install:
 Upload ./inc/plugins/aamessage.php to ./inc/plugins/
 Upload ./inc/languages/english/aamessage.lang.php to ./inc/languages/english/
 Go to ACP > Plugins > Activate
 
-Information:
-This plugin will add a message to the header of your forums if a member is awaiting activation, and you have account activation set to either email or admin activation.
-
-The message will display in your theme's style.
-
-Change Log:
+## Change Logs:
 24/01/09 - v0.1 -> v1.0
 28/01/09 - v1.0 -> v1.1 -> Deactivate v1.0, upload v1.1, activate. 2 settings removed.
 08/05/09 - v1.1 -> v1.1.1 -> Minor changes to files, upload new version, overwrite old, no need to deactivate.
@@ -28,7 +27,7 @@ Change Log:
 25/08/14 - v1.6 -> v.1.8 -> MyBB 1.8 compatible. Supports new account activation method of 'email and admin'. To upgrade, deactivate, reupload ./inc/plugins/aamessage.php and ./inc/languages/english/aamessage.lang.php, activate.
 08/01/17 - v1.8.0 -> v1.8.1 -> Templates now cached. Dropped compatibility with MyBB 1.6. To upgrade, reupload ./inc/plugins/aamessage.php.
 
-Copyright 2017 Matthew Rogowski
+## Copyright 2017 Matthew Rogowski
 
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
